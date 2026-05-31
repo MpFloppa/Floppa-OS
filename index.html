@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloppaOS — Официальный сайт</title>
+    
+    <meta name="description" content="FloppaOS — многофункциональная черно-красная веб-система со встроенными приложениями, играми, файлами и безопасностью для вашего ПК (почти).">
+    <meta name="keywords" content="floppaos, web floppa os, шлёпа ос, операционная система шлёпы, микрофлоппа, mpfloppayt, floppastudio">
+    <meta name="author" content="MpFloppaYT / FloppaStudio">
+    <style>
+        :root { --bg: #080808; --card: #121212; --accent: #ff2a2a; --text: #fff; --muted: #b5b5b5; --border: #261010; }
+        body { background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; margin: 0; padding: 0 10%; scroll-behavior: smooth; text-align: center; }
+        nav, footer { display: flex; justify-content: space-between; padding: 20px 0; }
+        nav { border-bottom: 1px solid var(--border); }
+        footer { border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); margin-top: 50px; }
+        a { color: var(--text); text-decoration: none; font-size: 14px; padding: 8px 12px; display: inline-block; }
+        .logo, a:hover, .card h3 { color: var(--accent); }
+        .hero { padding: 60px 0; background: radial-gradient(circle at top, rgba(255,42,42,0.1) 0%, transparent 60%); }
+        h1 { font-size: 40px; margin-bottom: 10px; }
+        .btn { background: var(--accent); color: #fff; padding: 12px 30px; border-radius: 4px; border: none; font-weight: 600; cursor: pointer; font-size: 16px; display: inline-block; width: 100%; box-sizing: border-box; text-align: center; transition: background 0.3s ease; }
+        .btn:hover { background: #cc1f1f; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 30px 0; text-align: left; }
+        .card { background: var(--card); border: 1px solid var(--border); padding: 20px; border-radius: 6px; }
+        .box { background: var(--card); border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 6px; padding: 30px; max-width: 500px; margin: 0 auto 30px auto; text-align: left; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#" class="logo" style="font-weight:700; font-size:20px; padding:8px 0;">FloppaOS</a>
+    <div>
+        <a href="#features" style="margin-left:10px;">Плюсы</a>
+        <a href="#req" style="margin-left:10px;">Требования</a>
+        <a href="#dl" style="margin-left:10px;">Загрузка</a>
+    </div>
+</nav>
+
+<main>
+
+<div class="hero">
+    <h1>FloppaOS</h1>
+    <p style="color:var(--muted); margin-bottom:20px;">Многофункциональная черно-красная веб-система со встроенными приложениями и играми.</p>
+    <a href="#dl" class="btn" style="width:auto;">Перейти к загрузке</a>
+</div>
+
+<div id="features" style="padding-top:20px;">
+    <h2 style="text-align:left; border-left:4px solid var(--accent); padding-left:10px;">Преимущества системы</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Встроенный софт</h3>
+            <p>В систему уже встроены полноценный калькулятор, удобный текстовый блокнот, браузер brave и встроена игра cookie clicker.</p>
+        </div>
+        <div class="card">
+            <h3>файлы и безопасность</h3>
+            <p>вашей системе и пк нечего не грозить (почти) а также файлы легко удалять!</p>
+        </div>
+        <div class="card">
+            <h3>Многозадачность</h3>
+            <p>Удобный черно-красный рабочий стол Fluent Design позволяет открывать и перетаскивать несколько окон одновременно.</p>
+         </div>
+      <div class="card">
+            <h3>Насколько сложно делать программы для FloppaOS?</h3>
+            <p>Нужно знать html,css,js и бэкэнд то есть для онлайн игр.</p>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="req" style="padding-top:20px;">
+    <h2 style="text-align:left; border-left:4px solid var(--accent); padding-left:10px;">Минимальные требования</h2>
+    <div class="grid">
+        <div class="card"><h3>ЦП</h3><p>Rasberry pi 3</p></div>
+        <div class="card"><h3>Диск</h3><p>1 ГБ места</p></div>
+        <div class="card"><h3>Экран</h3><p>Монитор </p></div>
+        <div class="card"><h3>Софт</h3><p>Любой браузер</p></div>
+    </div>
+</div>
+
+<div id="dl" style="padding: 20px 0;">
+    <div class="box">
+        <h3>Центр загрузки</h3>
+        <p style="color:var(--muted); font-size:14px; margin-bottom:20px;">Официальный дистрибутив системы в одном легком файле.</p>
+        <a href="https://drive.usercontent.google.com/u/0/uc?id=1_4djKo3Ta5KZQ6CCog3Aby4SngXA4cGo&export=download" download="https://drive.usercontent.google.com/u/0/uc?id=1_4djKo3Ta5KZQ6CCog3Aby4SngXA4cGo&export=download" class="btn">Скачать HTML файл</a>
+    </div>
+</div>
+
+</main>
+
+<footer>
+    <div>© 2026 FloppaStudio. Все права защищены.</div>
+    <div>By @MpFloppaYT</div>
+    <div>Конфиденциальность</div>
+</footer>
+
+</body>
+</html>
